@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    #services-container {
+        flex-direction: column;
+    }
+    #services{
+        flex-direction: column;
+    }
+    #services .box{ 
+        flex-direction: column;
+    }
+    #mid .row img {
+        flex-direction: column;
+        position: fixed;
+        visibility: hidden;
+    }
+    #carouselExampleIndicators {
+        content-visibility: hidden;
+    }
+}

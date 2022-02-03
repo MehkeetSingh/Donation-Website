@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.display-6 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.carousel-inner {
+    height: 450px;
+}
+
+#navbarNavDropdown ul li a {
+    border-radius: 20px;
+}
+#navbarNavDropdown ul li a:hover {
+    background-color: rgb(211, 33, 33);
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid #d50000;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+#services-container {
+    background-color: #feffdd;
+}
+#searchbox {
+    border-radius: 20px;
+    color:#9fd3e0;
+    border-color:#9fd3e0;
+}
+h1 {
+    text-align: center;
+    color: #d50000;
+}
+.container-fluid .row {
+    background-color: #feffdd;
+}
+.container-fluid .row img {
+    width: 310px;
+    position: absolute;
+}
+.container-fluid .row .col-12 h3 {
+    color: #ffa500;
+}
+.container-fluid .row h4 {
+    color: #ffa500;
+}
+.container-fluid .row .col-12 h3 a button{
+    border-radius: 20px;
+}
+#info {
+    color: white;
+}
+.footer-ask-here-container {
+    color: white;
+    text-align: center;
+}
+.form-cont {
+    width: 240px;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 6px;
+}
